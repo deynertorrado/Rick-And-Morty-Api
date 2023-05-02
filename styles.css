@@ -174,18 +174,29 @@ body {
 @media screen and (max-width: 456px) {
     .person {
         margin: 10px 5px;
-    }    
+    }
+    .person div {
+        margin-top: 10px;
+    }
     .name, .status {
-        font-size: 12px;
+        font-size: 15px;
     }
     .name, .status, .species, .info {
         margin-left: 10px;
     }
     .species, .info {
-        font-size: 10px;
+        font-size: 13px;
     }
     .species {
         margin-top: 0px;
     }
 }
 
+@media screen and (max-width: 370px) {
+    .name, .status {
+        font-size: 12px;
+    }
+    .species, .info {
+        font-size: 10px;
+    }
+}
